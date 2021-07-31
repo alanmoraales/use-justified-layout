@@ -1,7 +1,7 @@
 {
   "name": "use-justified-layout",
   "version": "0.0.5",
-  "description": "Flickr's justified-layout in a hook",
+  "description": "Flickr's justified-layout in a React hook",
   "author": "Alan Morales",
   "repository": {
     "type": "git",
