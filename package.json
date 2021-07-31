@@ -1,0 +1,39 @@
+{
+  "name": "use-justified-layout",
+  "version": "0.0.5",
+  "description": "Flickr's justified-layout in a hook",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "justified-layout": "^4.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/justified-layout": "^4.0.1",
+    "@types/node": "^16.4.4",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "esbuild": "^0.12.16",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4",
+    "vite-plugin-dts": "^0.5.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/use-justified-layout.umd.js",
+  "module": "./dist/use-justified-layout.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/use-justified-layout.es.js",
+      "require": "./dist/use-justified-layout.umd.js"
+    }
+  },
+  "types": "./dist/lib/main.d.ts"
+}
