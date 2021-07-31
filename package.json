@@ -2,6 +2,20 @@
   "name": "use-justified-layout",
   "version": "0.0.5",
   "description": "Flickr's justified-layout in a hook",
+  "author": "Alan Morales",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanmoraales/use-justified-layout.git"
+  },
+  "homepage": "https://github.com/alanmoraales/use-justified-layout",
+  "keywords": [
+    "react",
+    "flickr",
+    "justified layout",
+    "gallery",
+    "hook"
+  ],
+  "license": "ISC",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
