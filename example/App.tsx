@@ -8,6 +8,7 @@ function App() {
   const [layout, layoutIsReady] = useJustifiedLayout({
     layoutInput: images,
   });
+
   return (
     <div>
       {layout.boxes.map(({ width, height, top, left }, index) => (
